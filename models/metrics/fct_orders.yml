@@ -4,7 +4,7 @@ semantic_models:
       agg_time_dimension: order_date
     description: |
       Order fact table. This table’s grain is one row per order
-    model: ref('fct_orders')
+    model: ref('stg_orders')
     entities:
       - name: order_id
         type: primary
